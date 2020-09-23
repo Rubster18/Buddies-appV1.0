@@ -5,4 +5,4 @@ Alejandro Sanchéz https://www.linkedin.com/in/aljosago/ <br>
 and Rubén Adarme https://www.linkedin.com/in/rubenadarme/ <br>
 under the guidance of Juan Diego Calero https://www.linkedin.com/in/juandiegocalero/ <br> 
 
-the project has the purpose of serving as a medium of conecting patients and buddies (volunteers) to help them in their tratment
+the project has the purpose of serving as a medium of conecting patients and buddies (volunteers) to help them in their treatment
