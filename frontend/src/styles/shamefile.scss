@@ -15,11 +15,13 @@
   }
   
   .homepage-button-container {
-    margin-top: 82px; 
+    margin-top: 60px;
     display: flex;
-    margin-left: 5%;
-    margin-top: 10%;
     justify-content: space-evenly;
+    .big-button {
+      width: 260px;
+      margin: 20px;
+    }
   }
 
   .thank-you-container {
@@ -59,7 +61,6 @@
   }
   
   .jumbotroncontainer{
-    position: absolute;
     width: 100%;
     height: 500px; 
     background-image: url(../Images/viejita.png);
@@ -73,45 +74,14 @@
     color: $primary;
   }
   .aboutus {
-    position: absolute;
-    width: 655px;
-    height: 474px;
-    left: 100px;
-    top: 642px;
-    background: $white;
-    border-radius: 10px;
-    padding: 10px 10px 10px 10px ;
-    margin: 20px;
-    margin-bottom: 20%;
-    text-align: center;
+    margin: 0 auto;
+    padding-top: 48px;
+    max-width: 990px;
+    h2, h3 {
+      text-align: left;
+    }
   }
 
-  .expect {
-    position: absolute;
-    width: 315px;
-    height: 229px;
-    left: 902px;
-    top: 630px;
-    border-bottom: 1px solid #2B313A;
-    padding-bottom: 50px;
-    margin: 20px;
-  }
+  
 
-  .team {
-    position: absolute;
-    width: 315px;
-    height: 229px;
-    left: 902px;
-    top: 900px;
-    margin: 20px;
-    background: $white;
-  }
-
-  .team-title {
-    position: relative;
-    margin-left: 0px;
-  }
-
-  .white-text{
-    color: $white;
-  }
+  

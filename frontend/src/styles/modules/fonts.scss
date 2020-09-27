@@ -28,8 +28,20 @@
     font-size: $base-text;
     line-height: 19px;
   }
+  .text-r {
+    text-align: right;
+  }
   
   .small-text {
     font-size: $small-text;
     line-height: 14px;
+  }
+  .color-p {
+    color: $primary
+  }
+  .color-s {
+    color: $secondary
+  }
+  .color-w {
+    color: $white
   }

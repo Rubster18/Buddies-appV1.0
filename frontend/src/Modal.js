@@ -24,7 +24,7 @@ const Modal = ({person, show, closeModal}) => {
    }
     return(
       <div className="modal-box" id="modal-box">
-         <div className="modalcontainer">
+         <div className="modalcontainer card">
             <h2 className="modal-head">{person.name}</h2>
             <div className="close-btn" onClick={closeModal}> x </div>
             <div className="modal-props">
@@ -32,41 +32,38 @@ const Modal = ({person, show, closeModal}) => {
               <div className="modalp">
                 <div className="textrows">
                 <p> <b>Leeftijd: </b> </p>
-                <p className="underlined">{age}</p>
+                <p className="border-b">{age}</p>
                </div>
               </div>
               <div className="modalp">
                 <div className="textrows">
                   <p> <b>Email:</b></p>
-                  <p className="underlined">{person.email}</p>
+                  <p className="border-b">{person.email}</p>
                 </div>
               </div>
 
               <div className="modalp">
                 <div className="textrows">
                   <p> <b>Geboorteplaats:</b> </p> 
-                  <p className="underlined">{person.hometown}</p>
+                  <p className="border-b">{person.hometown}</p>
                 </div>
               </div>
 
               <div className="modalp">
                 <div className="textrows">
                   <p><b>Maatje of patiënt?</b> </p>
-                  <p className="underlined"> {buddy_patient}</p> 
+                  <p className="border-b"> {buddy_patient}</p> 
                 </div>
               </div>
 
               <div className="hobbiebox">
                 <div className="textrows">
                   <p> <b> hobby's en interesses:</b></p> 
-                  <p>{person.hobbies}</p>
+                  <p clas="border-b">{person.hobbies}</p>
                 </div>
               </div>
           </div>
-          
-
-
-
+        
          </div>
         <div className="overlay" onClick={closeModal}></div>
       </div>

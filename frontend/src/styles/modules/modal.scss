@@ -6,7 +6,6 @@
   margin-top: -240px;
   margin-left: -275px;
   left: 50%;
-  background-color: $white;
   border-radius: 6px;
   border: 1px solid $success;
   box-sizing: border-box;
@@ -94,7 +93,7 @@
 .hobbiebox{
   overflow-x: scroll auto;
   overflow-y: scroll auto;
-  border-bottom: 2px solid #c4c4c4;
+  // border-bottom: 2px solid #c4c4c4;
   border-bottom: 0%;
   width: 438px;
 }
@@ -102,8 +101,4 @@
 .textrows {
   padding-top: 0%;
   padding-bottom: 0%; 
-}
-
-.underlined{
-  border-bottom: 2px solid #c4c4c4;
 }

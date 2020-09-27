@@ -5,6 +5,8 @@ import StudentForm from "./StudentForm"
 import Homepage from './Homepage';
 import ThankYou from './ThankYou';
 import Login from './Login';
+import Footer from "./Footer";
+
 
 import {
   BrowserRouter as Router,
@@ -18,7 +20,8 @@ function App(){
   return(
     <div className="App">
         
-        <Router>
+       <div className="main-container">
+       <Router>
         <Switch>
             <Route exact path="/">
               <Homepage />
@@ -40,6 +43,8 @@ function App(){
             </Route>
           </Switch>
       </Router>
+       </div>
+        <Footer/>
     </div>
   );
 }
